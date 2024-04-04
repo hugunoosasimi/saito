@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+ul{
+    padding-right: 300px;
+            display: flex;}
+            h1{
+                border: solid 10px #e2eba3;
+                background-color: #e2eba3;
+                text-align: center;
+                
+            }
+            
+                
+                body {
+                    background-image: url('e1.png');
+                    background-size: 50%; /* 画像のサイズを50%に縮小 */
+                    background-position: center; /* 画像を中央に配置 */
+                }
+                .parent-container {
+                    text-align: center; /* 子要素を横方向の中央に配置する */
+                    font-size: 40px;
+                    color: rgb(255, 1, 51);
+                }
+
+                
+                .child-element {
+                    /* 任意のスタイル */
+                    display: inline-block; /* インラインブロック要素として扱うことで、テキストのように中央に配置される */
+                }
+            
